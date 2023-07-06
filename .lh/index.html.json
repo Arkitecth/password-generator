@@ -1,0 +1,514 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 124,
+            "patches": [
+                {
+                    "date": 1688575926629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688576099186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <header>Password Generator</header>\n     <main>\n       <div class=\"password-field\">\n         <h1>P4$5W0rD!</h1>\n-        <img src=\"\" alt=\"\">\n+        <img src=\"assets/images/icon-copy.svg\" alt=\"\">\n       </div>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688576106203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <header>Password Generator</header>\n     <main>\n       <div class=\"password-field\">\n         <h1>P4$5W0rD!</h1>\n-        <img src=\"assets/images/icon-copy.svg\" alt=\"\">\n+        <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688576150937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,14 @@\n       <div class=\"password-field\">\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n+\n+      <div class=\"selection-field\">\n+        \n+      </div>\n+\n+\n     </main>\n     \n   </div>\n  \n"
+                },
+                {
+                    "date": 1688576159775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,10 @@\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n \n       <div class=\"selection-field\">\n-        \n+        Character Length\n+\n       </div>\n \n \n     </main>\n@@ -29,10 +30,10 @@\n  \n \n \n \n-  Character Length\n \n+\n   Include Uppercase Letters\n   Include Lowercase Letters\n   Include Numbers\n   Include Symbols\n"
+                },
+                {
+                    "date": 1688576171438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n \n       <div class=\"selection-field\">\n-        Character Length\n+        <p>Character Length</p>\n \n       </div>\n \n \n"
+                },
+                {
+                    "date": 1688576232581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,10 +18,11 @@\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n \n       <div class=\"selection-field\">\n-        <p>Character Length</p>\n-\n+        <div class=\"character-length\">\n+          \n+        </div>\n       </div>\n \n \n     </main>\n"
+                },
+                {
+                    "date": 1688576241673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n       </div>\n \n       <div class=\"selection-field\">\n         <div class=\"character-length\">\n-          \n+          <p>Character Length</p>\n         </div>\n       </div>\n \n \n"
+                },
+                {
+                    "date": 1688576254256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,10 @@\n       </div>\n \n       <div class=\"selection-field\">\n         <div class=\"character-length\">\n-          <p>Character Length</p>\n+          <p>Character Length</p> \n+          <p>10</p>\n         </div>\n       </div>\n \n \n"
+                },
+                {
+                    "date": 1688576266559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n \n       <div class=\"selection-field\">\n         <div class=\"character-length\">\n           <p>Character Length</p> \n-          <p>10</p>\n+          <p class=\"character-length\">10</p>\n         </div>\n       </div>\n \n \n"
+                },
+                {
+                    "date": 1688576425284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,12 +18,13 @@\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n \n       <div class=\"selection-field\">\n-        <div class=\"character-length\">\n+        <div class=\"character-field\">\n           <p>Character Length</p> \n-          <p class=\"character-length\">10</p>\n+          <p class=\"\">10</p>\n         </div>\n+\n       </div>\n \n \n     </main>\n"
+                },
+                {
+                    "date": 1688576431500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n \n       <div class=\"selection-field\">\n         <div class=\"character-field\">\n           <p>Character Length</p> \n-          <p class=\"\">10</p>\n+          <p class=\"character-length\">10</p>\n         </div>\n \n       </div>\n \n"
+                },
+                {
+                    "date": 1688577010546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,18 +16,9 @@\n       <div class=\"password-field\">\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n-\n-      <div class=\"selection-field\">\n-        <div class=\"character-field\">\n-          <p>Character Length</p> \n-          <p class=\"character-length\">10</p>\n-        </div>\n-\n-      </div>\n-\n-\n+      \n     </main>\n     \n   </div>\n  \n"
+                },
+                {
+                    "date": 1688577065986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,11 @@\n       <div class=\"password-field\">\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n-      \n+      <form>\n+        input\n+      </form>\n     </main>\n     \n   </div>\n  \n"
+                },
+                {
+                    "date": 1688577103351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n-        input\n+        <input type=\"range\">\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688577112294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n-        <input type=\"range\">\n+        <input type=\"range\" id=\"character-length\">\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688577130699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n-        <input type=\"range\" id=\"character-length\">\n+        <input type=\"range\" id=\"character-length\" name=\"character-length\">\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688577138955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n-        <input type=\"range\" id=\"character-length\" name=\"character-length\">\n+        <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\">\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688577149742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n-        <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\">\n+        <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688577169082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n+        <label for=\"character-length\"></label>\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688577176341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n-        <label for=\"character-length\"></label>\n+        <label for=\"character-length\">10</label>\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688577188673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n-        <label for=\"character-length\">10</label>\n+        <label class=\"length-label\" for=\"character-length\">10</label>\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688577231703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,10 +17,11 @@\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n+        <label class=\"length-label\" for=\"character-length\">10</label>\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n-        <label class=\"length-label\" for=\"character-length\">10</label>\n+\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688577246070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,11 +17,10 @@\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n+        <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n         <label class=\"length-label\" for=\"character-length\">10</label>\n-        <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n-\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688577399052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n+        <label for=\"character-length\"></label>\n         <label class=\"length-label\" for=\"character-length\">10</label>\n       </form>\n     </main>\n     \n"
+                },
+                {
+                    "date": 1688577406950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n-        <label for=\"character-length\"></label>\n+        <label for=\"character-length\">Character Length</label>\n         <label class=\"length-label\" for=\"character-length\">10</label>\n       </form>\n     </main>\n     \n"
+                },
+                {
+                    "date": 1688578048094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   <meta charset=\"UTF-8\">\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n \n   <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./assets/images/favicon-32x32.png\">\n-  \n+  <link rel=\"stylesheet\" href=\"styles.css\">\n   <title>Password generator app</title>\n </head>\n <body>\n \n"
+                },
+                {
+                    "date": 1688578155008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,11 +17,12 @@\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n-        <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n         <label for=\"character-length\">Character Length</label>\n         <label class=\"length-label\" for=\"character-length\">10</label>\n+        <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n+\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688578179679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,12 +17,14 @@\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n-        <label for=\"character-length\">Character Length</label>\n-        <label class=\"length-label\" for=\"character-length\">10</label>\n+        <div class=\"character-field\">\n+          <label for=\"character-length\">Character Length</label>\n+          <label class=\"length-label\" for=\"character-length\">10</label>\n+        </div>\n+   \n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n-\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688578225937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,8 @@\n         <div class=\"character-field\">\n           <label for=\"character-length\">Character Length</label>\n           <label class=\"length-label\" for=\"character-length\">10</label>\n         </div>\n-   \n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n       </form>\n     </main>\n     \n"
+                },
+                {
+                    "date": 1688578272114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,9 @@\n           <label for=\"character-length\">Character Length</label>\n           <label class=\"length-label\" for=\"character-length\">10</label>\n         </div>\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n+        \n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688578323351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n           <label for=\"character-length\">Character Length</label>\n           <label class=\"length-label\" for=\"character-length\">10</label>\n         </div>\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n-        \n+        <input type=\"checkbox\" name=\"\" id=\"\">\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688578367451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n           <label for=\"character-length\">Character Length</label>\n           <label class=\"length-label\" for=\"character-length\">10</label>\n         </div>\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n-        <input type=\"checkbox\" name=\"\" id=\"\">\n+        <input type=\"checkbox\" name=\"checkbox\" id=\"\">\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688578380615,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n           <label for=\"character-length\">Character Length</label>\n           <label class=\"length-label\" for=\"character-length\">10</label>\n         </div>\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n-        <input type=\"checkbox\" name=\"checkbox\" id=\"\">\n+        <input type=\"checkbox\" name=\"upper-checkbox\" id=\"checkbox\">\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688578393804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,11 @@\n           <label for=\"character-length\">Character Length</label>\n           <label class=\"length-label\" for=\"character-length\">10</label>\n         </div>\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n-        <input type=\"checkbox\" name=\"upper-checkbox\" id=\"checkbox\">\n+        \n+        <label for=\"upper-checkbox\"></label>\n+        <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688578408174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n           <label class=\"length-label\" for=\"character-length\">10</label>\n         </div>\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n         \n-        <label for=\"upper-checkbox\"></label>\n+        <label for=\"upper-checkbox\">  Include Uppercase Letters</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n       </form>\n     </main>\n     \n"
+                },
+                {
+                    "date": 1688578425649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n           <label class=\"length-label\" for=\"character-length\">10</label>\n         </div>\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n         \n-        <label for=\"upper-checkbox\">  Include Uppercase Letters</label>\n+        <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n       </form>\n     </main>\n     \n"
+                },
+                {
+                    "date": 1688578443377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,17 @@\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n         \n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+\n+        <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n+        <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+\n+        <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n+        <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+\n+        <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n+        <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n       </form>\n     </main>\n     \n   </div>\n"
+                },
+                {
+                    "date": 1688578449957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,10 @@\n         <div class=\"character-field\">\n           <label for=\"character-length\">Character Length</label>\n           <label class=\"length-label\" for=\"character-length\">10</label>\n         </div>\n+\n+        <!-- Range -->\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n         \n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n"
+                },
+                {
+                    "date": 1688578455035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,10 @@\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n+\n+        <!-- Character Field -->\n         <div class=\"character-field\">\n           <label for=\"character-length\">Character Length</label>\n           <label class=\"length-label\" for=\"character-length\">10</label>\n         </div>\n"
+                },
+                {
+                    "date": 1688578465832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,10 @@\n \n         <!-- Range -->\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n         \n+\n+        <!-- Checkboxes -->\n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n"
+                },
+                {
+                    "date": 1688578473249,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,8 @@\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form>\n-\n         <!-- Character Field -->\n         <div class=\"character-field\">\n           <label for=\"character-length\">Character Length</label>\n           <label class=\"length-label\" for=\"character-length\">10</label>\n@@ -28,9 +27,9 @@\n         <!-- Range -->\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n         \n \n-        <!-- Checkboxes -->\n+        <!-- Checkboxes With Labels -->\n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n"
+                },
+                {
+                    "date": 1688578499975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,17 +31,18 @@\n         <!-- Checkboxes With Labels -->\n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n-        <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n+        <label class=\"checkbox-label\" for=\"upper-checkbox\">  Include Lowercase Letters</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n       </form>\n+\n     </main>\n     \n   </div>\n  \n"
+                },
+                {
+                    "date": 1688578506712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,10 +31,10 @@\n         <!-- Checkboxes With Labels -->\n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n-        <label class=\"checkbox-label\" for=\"upper-checkbox\">  Include Lowercase Letters</label>\n-        <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+        <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Lowercase Letters</label>\n+        <input type=\"checkbox\" name=\"upper-checkbox\" id=\"lower-checkbox\">\n \n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n"
+                },
+                {
+                    "date": 1688578527389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,11 +32,11 @@\n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Lowercase Letters</label>\n-        <input type=\"checkbox\" name=\"upper-checkbox\" id=\"lower-checkbox\">\n+        <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n \n-        <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n+        <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Numbers</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n"
+                },
+                {
+                    "date": 1688578536330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n \n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Numbers</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n-        <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n+        <label class=\"checkbox-label\" for=\"upper-checkbox\">  Include Symbols</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n       </form>\n \n     </main>\n"
+                },
+                {
+                    "date": 1688578556011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,10 +37,12 @@\n \n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Numbers</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n-        <label class=\"checkbox-label\" for=\"upper-checkbox\">  Include Symbols</label>\n+        <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Symbols</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+\n+        \n       </form>\n \n     </main>\n     \n"
+                },
+                {
+                    "date": 1688578575696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,11 @@\n \n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Symbols</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n-        \n+        <div class=\"password-strength\">\n+          \n+        </div>\n       </form>\n \n     </main>\n     \n"
+                },
+                {
+                    "date": 1688578582551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,10 +40,11 @@\n \n         <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Symbols</label>\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n+        <!-- Password Strength -->\n         <div class=\"password-strength\">\n-          \n+\n         </div>\n       </form>\n \n     </main>\n"
+                },
+                {
+                    "date": 1688578601804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n-\n+          <p>  Strength</p>\n         </div>\n       </form>\n \n     </main>\n"
+                },
+                {
+                    "date": 1688578608694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,10 @@\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n-          <p>  Strength</p>\n+          <p>Strength</p>\n+          \n         </div>\n       </form>\n \n     </main>\n"
+                },
+                {
+                    "date": 1688578855490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n \n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n           <p>Strength</p>\n-          \n+          <p>Medium</p>\n         </div>\n       </form>\n \n     </main>\n"
+                },
+                {
+                    "date": 1688578873370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n \n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n           <p>Strength</p>\n-          <p>Medium</p>\n+          <h1>Medium</h1>\n         </div>\n       </form>\n \n     </main>\n"
+                },
+                {
+                    "date": 1688578885649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n \n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n           <p>Strength</p>\n-          <h1>Medium</h1>\n+          \n         </div>\n       </form>\n \n     </main>\n"
+                },
+                {
+                    "date": 1688578895906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,11 @@\n \n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n           <p>Strength</p>\n-          \n+          <div class=\"strength-state\">\n+            \n+          </div>\n         </div>\n       </form>\n \n     </main>\n"
+                },
+                {
+                    "date": 1688578902234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n           <p>Strength</p>\n           <div class=\"strength-state\">\n-            \n+            Medium\n           </div>\n         </div>\n       </form>\n \n"
+                },
+                {
+                    "date": 1688578945692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,8 +45,10 @@\n         <div class=\"password-strength\">\n           <p>Strength</p>\n           <div class=\"strength-state\">\n             Medium\n+            <div class=\"column1\"></div>\n+            <div class=\"column2\"></div>\n           </div>\n         </div>\n       </form>\n \n"
+                },
+                {
+                    "date": 1688578953077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,8 +47,10 @@\n           <div class=\"strength-state\">\n             Medium\n             <div class=\"column1\"></div>\n             <div class=\"column2\"></div>\n+            <div class=\"column3\"></div>\n+            <div class=\"column4\"></div>\n           </div>\n         </div>\n       </form>\n \n"
+                },
+                {
+                    "date": 1688578959422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n           <p>Strength</p>\n           <div class=\"strength-state\">\n-            Medium\n+            <h3>Medium</h3>\n             <div class=\"column1\"></div>\n             <div class=\"column2\"></div>\n             <div class=\"column3\"></div>\n             <div class=\"column4\"></div>\n"
+                },
+                {
+                    "date": 1688578968599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n           <p>Strength</p>\n           <div class=\"strength-state\">\n-            <h3>Medium</h3>\n+            <h2>Medium</h3>\n             <div class=\"column1\"></div>\n             <div class=\"column2\"></div>\n             <div class=\"column3\"></div>\n             <div class=\"column4\"></div>\n"
+                },
+                {
+                    "date": 1688579047968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,17 +42,24 @@\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n+\n           <p>Strength</p>\n+\n           <div class=\"strength-state\">\n-            <h2>Medium</h3>\n+            <h2>Medium</h2>\n             <div class=\"column1\"></div>\n             <div class=\"column2\"></div>\n             <div class=\"column3\"></div>\n             <div class=\"column4\"></div>\n           </div>\n+\n+\n+          \n+\n         </div>\n+\n       </form>\n \n     </main>\n     \n"
+                },
+                {
+                    "date": 1688579102564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,11 +53,8 @@\n             <div class=\"column3\"></div>\n             <div class=\"column4\"></div>\n           </div>\n \n-\n-          \n-\n         </div>\n \n       </form>\n \n"
+                },
+                {
+                    "date": 1688579173052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,8 @@\n             <div class=\"column2\"></div>\n             <div class=\"column3\"></div>\n             <div class=\"column4\"></div>\n           </div>\n-\n         </div>\n \n       </form>\n \n"
+                },
+                {
+                    "date": 1688579217701,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,8 @@\n         <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n \n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n-\n           <p>Strength</p>\n \n           <div class=\"strength-state\">\n             <h2>Medium</h2>\n"
+                },
+                {
+                    "date": 1688579247665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n \n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n           <p>Strength</p>\n-\n+          <!-- Strength State |||| -->\n           <div class=\"strength-state\">\n             <h2>Medium</h2>\n             <div class=\"column1\"></div>\n             <div class=\"column2\"></div>\n@@ -53,8 +53,9 @@\n             <div class=\"column4\"></div>\n           </div>\n         </div>\n \n+\n       </form>\n \n     </main>\n     \n"
+                },
+                {
+                    "date": 1688579253425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n \n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n           <p>Strength</p>\n-          <!-- Strength State |||| -->\n+          <!-- Strength State  | | | | -->\n           <div class=\"strength-state\">\n             <h2>Medium</h2>\n             <div class=\"column1\"></div>\n             <div class=\"column2\"></div>\n"
+                },
+                {
+                    "date": 1688579264798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,8 +53,9 @@\n             <div class=\"column4\"></div>\n           </div>\n         </div>\n \n+        <!-- Generate Button -->\n \n       </form>\n \n     </main>\n"
+                },
+                {
+                    "date": 1688579295997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,8 +54,9 @@\n           </div>\n         </div>\n \n         <!-- Generate Button -->\n+        <button type=\"submit\">Generate</button>\n \n       </form>\n \n     </main>\n"
+                },
+                {
+                    "date": 1688579305208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,10 +54,13 @@\n           </div>\n         </div>\n \n         <!-- Generate Button -->\n-        <button type=\"submit\">Generate</button>\n+        <button type=\"submit\">\n+          Generate\n \n+        </button>\n+\n       </form>\n \n     </main>\n     \n"
+                },
+                {
+                    "date": 1688579326787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n \n         <!-- Generate Button -->\n         <button type=\"submit\">\n           Generate\n-\n+          <img src=\"assets/images/icon-arrow-right.svg\" alt=\"\">\n         </button>\n \n       </form>\n \n"
+                },
+                {
+                    "date": 1688579332063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n \n         <!-- Generate Button -->\n         <button type=\"submit\">\n           Generate\n-          <img src=\"assets/images/icon-arrow-right.svg\" alt=\"\">\n+          <img src=\"assets/images/icon-arrow-right.svg\" alt=\"icon-arrow-right\">\n         </button>\n \n       </form>\n \n"
+                },
+                {
+                    "date": 1688579354816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,21 +64,8 @@\n \n     </main>\n     \n   </div>\n- \n \n \n-\n-\n-\n-  Include Uppercase Letters\n-  Include Lowercase Letters\n-  Include Numbers\n-  Include Symbols\n-\n-  Strength\n-\n-  Generate\n-\n </body>\n </html>\n"
+                },
+                {
+                    "date": 1688581107165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       <div class=\"password-field\">\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n-      <form>\n+      <form class=\"form-control\">\n         <!-- Character Field -->\n         <div class=\"character-field\">\n           <label for=\"character-length\">Character Length</label>\n           <label class=\"length-label\" for=\"character-length\">10</label>\n"
+                },
+                {
+                    "date": 1688581862002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,20 +28,23 @@\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n         \n \n         <!-- Checkboxes With Labels -->\n-        <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n-        <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+        <div class=\"checkboxes\">\n+          <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n+          <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+  \n+          <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Lowercase Letters</label>\n+          <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n+  \n+          <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Numbers</label>\n+          <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+  \n+          <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Symbols</label>\n+          <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+        </div>\n+      \n \n-        <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Lowercase Letters</label>\n-        <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n-\n-        <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Numbers</label>\n-        <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n-\n-        <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Symbols</label>\n-        <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n-\n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n           <p>Strength</p>\n           <!-- Strength State  | | | | -->\n"
+                },
+                {
+                    "date": 1688582570650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,15 +36,14 @@\n           <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Lowercase Letters</label>\n           <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n   \n           <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Numbers</label>\n-          <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+          <input type=\"checkbox\" name=\"upper-checkbox\" id=\"number-checkbox\">\n   \n           <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Symbols</label>\n           <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n         </div>\n       \n-\n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n           <p>Strength</p>\n           <!-- Strength State  | | | | -->\n"
+                },
+                {
+                    "date": 1688582575749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n           <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Numbers</label>\n           <input type=\"checkbox\" name=\"upper-checkbox\" id=\"number-checkbox\">\n   \n           <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Symbols</label>\n-          <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+          <input type=\"checkbox\" name=\"upper-checkbox\" id=symbol-checkbox\">\n         </div>\n       \n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n"
+                },
+                {
+                    "date": 1688582581020,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n           <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Lowercase Letters</label>\n           <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n   \n           <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Numbers</label>\n-          <input type=\"checkbox\" name=\"upper-checkbox\" id=\"number-checkbox\">\n+          <input type=\"checkbox\" name=\"bumber-checkbox\" id=\"number-checkbox\">\n   \n           <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Symbols</label>\n           <input type=\"checkbox\" name=\"upper-checkbox\" id=symbol-checkbox\">\n         </div>\n"
+                },
+                {
+                    "date": 1688582589551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,12 +32,12 @@\n         <div class=\"checkboxes\">\n           <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n           <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n   \n-          <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Lowercase Letters</label>\n+          <label class=\"checkbox-label\" for=\"lower-checkbox\">Include Lowercase Letters</label>\n           <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n   \n-          <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Numbers</label>\n+          <label class=\"checkbox-label\" for=\"number-checkbox\">Include Numbers</label>\n           <input type=\"checkbox\" name=\"bumber-checkbox\" id=\"number-checkbox\">\n   \n           <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Symbols</label>\n           <input type=\"checkbox\" name=\"upper-checkbox\" id=symbol-checkbox\">\n"
+                },
+                {
+                    "date": 1688582601313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,10 +38,10 @@\n   \n           <label class=\"checkbox-label\" for=\"number-checkbox\">Include Numbers</label>\n           <input type=\"checkbox\" name=\"bumber-checkbox\" id=\"number-checkbox\">\n   \n-          <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Symbols</label>\n-          <input type=\"checkbox\" name=\"upper-checkbox\" id=symbol-checkbox\">\n+          <label class=\"checkbox-label\" for=\"symbol-checkbox\">Include Symbols</label>\n+          <input type=\"checkbox\" name=\"symbol-checkbox\" id=symbol-checkbox\">\n         </div>\n       \n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n"
+                },
+                {
+                    "date": 1688582620278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n           <label class=\"checkbox-label\" for=\"lower-checkbox\">Include Lowercase Letters</label>\n           <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n   \n           <label class=\"checkbox-label\" for=\"number-checkbox\">Include Numbers</label>\n-          <input type=\"checkbox\" name=\"bumber-checkbox\" id=\"number-checkbox\">\n+          <input type=\"checkbox\" name=\"name\" id=\"number-checkbox\">\n   \n           <label class=\"checkbox-label\" for=\"symbol-checkbox\">Include Symbols</label>\n           <input type=\"checkbox\" name=\"symbol-checkbox\" id=symbol-checkbox\">\n         </div>\n"
+                },
+                {
+                    "date": 1688582836574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n           <label class=\"checkbox-label\" for=\"number-checkbox\">Include Numbers</label>\n           <input type=\"checkbox\" name=\"name\" id=\"number-checkbox\">\n   \n           <label class=\"checkbox-label\" for=\"symbol-checkbox\">Include Symbols</label>\n-          <input type=\"checkbox\" name=\"symbol-checkbox\" id=symbol-checkbox\">\n+          <input type=\"checkbox\" name=\"\" id=\"symbol-checkbox\">\n         </div>\n       \n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n"
+                },
+                {
+                    "date": 1688582914416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,12 +36,12 @@\n           <label class=\"checkbox-label\" for=\"lower-checkbox\">Include Lowercase Letters</label>\n           <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n   \n           <label class=\"checkbox-label\" for=\"number-checkbox\">Include Numbers</label>\n-          <input type=\"checkbox\" name=\"name\" id=\"number-checkbox\">\n+          <input type=\"checkbox\" name=\"number-checkbox\" id=\"number-checkbox\">\n   \n           <label class=\"checkbox-label\" for=\"symbol-checkbox\">Include Symbols</label>\n-          <input type=\"checkbox\" name=\"\" id=\"symbol-checkbox\">\n+          <input type=\"checkbox\" id=\"symbol-checkbox\">\n         </div>\n       \n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n"
+                },
+                {
+                    "date": 1688583124742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,13 @@\n           <label class=\"length-label\" for=\"character-length\">10</label>\n         </div>\n \n         <!-- Range -->\n+        <div class=\"slide-container\">\n+\n         <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n         \n+        </div>\n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n"
+                },
+                {
+                    "date": 1688583136260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,11 +25,9 @@\n         </div>\n \n         <!-- Range -->\n         <div class=\"slide-container\">\n-\n-        <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n-        \n+          <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n         </div>\n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n"
+                },
+                {
+                    "date": 1688583208976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,11 +24,10 @@\n           <label class=\"length-label\" for=\"character-length\">10</label>\n         </div>\n \n         <!-- Range -->\n-        <div class=\"slide-container\">\n-          <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n-        </div>\n+        <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n+        \n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n"
+                },
+                {
+                    "date": 1688587932748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,18 +16,19 @@\n       <div class=\"password-field\">\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n+      <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n+        \n       <form class=\"form-control\">\n         <!-- Character Field -->\n         <div class=\"character-field\">\n           <label for=\"character-length\">Character Length</label>\n           <label class=\"length-label\" for=\"character-length\">10</label>\n         </div>\n \n         <!-- Range -->\n-        <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n-        \n+     \n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n"
+                },
+                {
+                    "date": 1688591366742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,24 +16,26 @@\n       <div class=\"password-field\">\n         <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n-      <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n-        \n       <form class=\"form-control\">\n         <!-- Character Field -->\n         <div class=\"character-field\">\n           <label for=\"character-length\">Character Length</label>\n           <label class=\"length-label\" for=\"character-length\">10</label>\n         </div>\n \n         <!-- Range -->\n-     \n+        <input type=\"range\" id=\"character-length\" name=\"character-length\" min=\"0\" max=\"100\">\n+        \n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n-          <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n-          <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+          <div class=\"checkbox-group\">\n+            <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n+            <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+          </div>\n+       \n   \n           <label class=\"checkbox-label\" for=\"lower-checkbox\">Include Lowercase Letters</label>\n           <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n   \n"
+                },
+                {
+                    "date": 1688591375647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,12 +33,16 @@\n           <div class=\"checkbox-group\">\n             <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n             <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n           </div>\n+\n+          <div class=\"checkbox-group\">\n+            <label class=\"checkbox-label\" for=\"lower-checkbox\">Include Lowercase Letters</label>\n+            <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n+          </div>\n        \n   \n-          <label class=\"checkbox-label\" for=\"lower-checkbox\">Include Lowercase Letters</label>\n-          <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n+        \n   \n           <label class=\"checkbox-label\" for=\"number-checkbox\">Include Numbers</label>\n           <input type=\"checkbox\" name=\"number-checkbox\" id=\"number-checkbox\">\n   \n"
+                },
+                {
+                    "date": 1688591388151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,15 +38,16 @@\n           <div class=\"checkbox-group\">\n             <label class=\"checkbox-label\" for=\"lower-checkbox\">Include Lowercase Letters</label>\n             <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n           </div>\n-       \n+\n+          <div class=\"checkbox-group\">\n+            <label class=\"checkbox-label\" for=\"number-checkbox\">Include Numbers</label>\n+            <input type=\"checkbox\" name=\"number-checkbox\" id=\"number-checkbox\">\n+          </div>\n   \n-        \n+   \n   \n-          <label class=\"checkbox-label\" for=\"number-checkbox\">Include Numbers</label>\n-          <input type=\"checkbox\" name=\"number-checkbox\" id=\"number-checkbox\">\n-  \n           <label class=\"checkbox-label\" for=\"symbol-checkbox\">Include Symbols</label>\n           <input type=\"checkbox\" id=\"symbol-checkbox\">\n         </div>\n       \n"
+                },
+                {
+                    "date": 1688591399391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,13 +43,14 @@\n           <div class=\"checkbox-group\">\n             <label class=\"checkbox-label\" for=\"number-checkbox\">Include Numbers</label>\n             <input type=\"checkbox\" name=\"number-checkbox\" id=\"number-checkbox\">\n           </div>\n-  \n-   \n-  \n-          <label class=\"checkbox-label\" for=\"symbol-checkbox\">Include Symbols</label>\n-          <input type=\"checkbox\" id=\"symbol-checkbox\">\n+\n+          <div class=\"checkbox-group\">\n+            <label class=\"checkbox-label\" for=\"symbol-checkbox\">Include Symbols</label>\n+            <input type=\"checkbox\" id=\"symbol-checkbox\">\n+          </div>\n+         \n         </div>\n       \n         <!-- Password Strength -->\n         <div class=\"password-strength\">\n"
+                },
+                {
+                    "date": 1688591446146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,10 +45,11 @@\n             <input type=\"checkbox\" name=\"number-checkbox\" id=\"number-checkbox\">\n           </div>\n \n           <div class=\"checkbox-group\">\n+            <input type=\"checkbox\" id=\"symbol-checkbox\">\n             <label class=\"checkbox-label\" for=\"symbol-checkbox\">Include Symbols</label>\n-            <input type=\"checkbox\" id=\"symbol-checkbox\">\n+\n           </div>\n          \n         </div>\n       \n"
+                },
+                {
+                    "date": 1688591453842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,16 +40,15 @@\n             <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n           </div>\n \n           <div class=\"checkbox-group\">\n+            <input type=\"checkbox\" name=\"number-checkbox\" id=\"number-checkbox\">\n             <label class=\"checkbox-label\" for=\"number-checkbox\">Include Numbers</label>\n-            <input type=\"checkbox\" name=\"number-checkbox\" id=\"number-checkbox\">\n           </div>\n \n           <div class=\"checkbox-group\">\n             <input type=\"checkbox\" id=\"symbol-checkbox\">\n             <label class=\"checkbox-label\" for=\"symbol-checkbox\">Include Symbols</label>\n-\n           </div>\n          \n         </div>\n       \n"
+                },
+                {
+                    "date": 1688591460343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,10 +35,10 @@\n             <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n           </div>\n \n           <div class=\"checkbox-group\">\n+            <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n             <label class=\"checkbox-label\" for=\"lower-checkbox\">Include Lowercase Letters</label>\n-            <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n           </div>\n \n           <div class=\"checkbox-group\">\n             <input type=\"checkbox\" name=\"number-checkbox\" id=\"number-checkbox\">\n"
+                },
+                {
+                    "date": 1688591469161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,10 @@\n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n-            <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>\n             <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+            <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>   \n           </div>\n \n           <div class=\"checkbox-group\">\n             <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n"
+                },
+                {
+                    "date": 1688594376215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n-            <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+            <div><input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\"></div>\n             <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>   \n           </div>\n \n           <div class=\"checkbox-group\">\n"
+                },
+                {
+                    "date": 1688594381355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n-            <div><input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\"></div>\n+            <div class=\"check\"><input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\"></div>\n             <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>   \n           </div>\n \n           <div class=\"checkbox-group\">\n"
+                },
+                {
+                    "date": 1688594916487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n-            <div class=\"check\"><input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\"></div>\n+            <div><input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n             <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>   \n           </div>\n \n           <div class=\"checkbox-group\">\n"
+                },
+                {
+                    "date": 1688595173916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n-            <div><input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+            <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n             <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>   \n           </div>\n \n           <div class=\"checkbox-group\">\n"
+                },
+                {
+                    "date": 1688595211795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,13 @@\n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n-            <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n-            <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>   \n+\n+            <label class=\"checkbox-label\" for=\"upper-checkbox\">\n+              <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+              Include Uppercase Letters\n+            </label>   \n           </div>\n \n           <div class=\"checkbox-group\">\n             <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n"
+                },
+                {
+                    "date": 1688595230928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,8 @@\n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n-\n             <label class=\"checkbox-label\" for=\"upper-checkbox\">\n               <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n               Include Uppercase Letters\n             </label>   \n"
+                },
+                {
+                    "date": 1688595237226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,12 +30,13 @@\n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n+            <!-- CSS Sorcery -->\n             <label class=\"checkbox-label\" for=\"upper-checkbox\">\n               <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n               Include Uppercase Letters\n-            </label>   \n+             </label>   \n           </div>\n \n           <div class=\"checkbox-group\">\n             <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n"
+                },
+                {
+                    "date": 1688595353188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,13 +30,10 @@\n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n-            <!-- CSS Sorcery -->\n-            <label class=\"checkbox-label\" for=\"upper-checkbox\">\n-              <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n-              Include Uppercase Letters\n-             </label>   \n+            <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+            <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>   \n           </div>\n \n           <div class=\"checkbox-group\">\n             <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n"
+                },
+                {
+                    "date": 1688595386224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,12 @@\n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n-            <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+            <div class=\"check\">\n+              <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+            </div>\n+        \n             <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>   \n           </div>\n \n           <div class=\"checkbox-group\">\n"
+                },
+                {
+                    "date": 1688597176516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,12 +30,9 @@\n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n-            <div class=\"check\">\n-              <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n-            </div>\n-        \n+            <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n             <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>   \n           </div>\n \n           <div class=\"checkbox-group\">\n"
+                },
+                {
+                    "date": 1688597426680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,14 @@\n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n+            <div class=\"check\">\n+\n+       \n             <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n-            <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>   \n+            <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>  \n+          </div> \n           </div>\n \n           <div class=\"checkbox-group\">\n             <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n"
+                },
+                {
+                    "date": 1688597433078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,13 +31,13 @@\n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n             <div class=\"check\">\n-\n-       \n+    \n             <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+          </div> \n             <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>  \n-          </div> \n+       \n           </div>\n \n           <div class=\"checkbox-group\">\n             <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n"
+                },
+                {
+                    "date": 1688597440784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,11 +31,10 @@\n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n             <div class=\"check\">\n-    \n-            <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n-          </div> \n+              <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+            </div> \n             <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>  \n        \n           </div>\n \n"
+                },
+                {
+                    "date": 1688597447619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,11 +32,11 @@\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n             <div class=\"check\">\n               <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n-            </div> \n+            </div>\n+             \n             <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>  \n-       \n           </div>\n \n           <div class=\"checkbox-group\">\n             <input type=\"checkbox\" name=\"lower-checkbox\" id=\"lower-checkbox\">\n"
+                },
+                {
+                    "date": 1688597453960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,8 @@\n           <div class=\"checkbox-group\">\n             <div class=\"check\">\n               <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n             </div>\n-             \n             <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>  \n           </div>\n \n           <div class=\"checkbox-group\">\n"
+                },
+                {
+                    "date": 1688597725288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,8 @@\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n             <div class=\"check\">\n               <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n-            </div>\n             <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>  \n           </div>\n \n           <div class=\"checkbox-group\">\n"
+                },
+                {
+                    "date": 1688597730988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,9 @@\n \n         <!-- Checkboxes With Labels -->\n         <div class=\"checkboxes\">\n           <div class=\"checkbox-group\">\n-            <div class=\"check\">\n-              <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n+            <input type=\"checkbox\" name=\"upper-checkbox\" id=\"upper-checkbox\">\n             <label class=\"checkbox-label\" for=\"upper-checkbox\">Include Uppercase Letters</label>  \n           </div>\n \n           <div class=\"checkbox-group\">\n"
+                },
+                {
+                    "date": 1688662970892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,10 @@\n   <div class=\"container\">\n     <header>Password Generator</header>\n     <main>\n       <div class=\"password-field\">\n-        <h1>P4$5W0rD!</h1>\n+        <input type=\"text\" placeholder=\" P4$5W0rD!\">\n+        P4$5W0rD!\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form class=\"form-control\">\n         <!-- Character Field -->\n"
+                },
+                {
+                    "date": 1688662989823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,8 @@\n     <header>Password Generator</header>\n     <main>\n       <div class=\"password-field\">\n         <input type=\"text\" placeholder=\" P4$5W0rD!\">\n-        P4$5W0rD!\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form class=\"form-control\">\n         <!-- Character Field -->\n"
+                },
+                {
+                    "date": 1688663011097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,10 @@\n   <div class=\"container\">\n     <header>Password Generator</header>\n     <main>\n       <div class=\"password-field\">\n-        <input type=\"text\" placeholder=\" P4$5W0rD!\">\n+        <label for=\"\"></label>\n+        <input type=\"text\" placeholder=\" P4$5W0rD!\" name=\"password-text\">\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form class=\"form-control\">\n         <!-- Character Field -->\n"
+                },
+                {
+                    "date": 1688663017917,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <header>Password Generator</header>\n     <main>\n       <div class=\"password-field\">\n         <label for=\"\"></label>\n-        <input type=\"text\" placeholder=\" P4$5W0rD!\" name=\"password-text\">\n+        <input type=\"text\" placeholder=\" P4$5W0rD!\" name=\"password-text\" class=\"password-text\">\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form class=\"form-control\">\n         <!-- Character Field -->\n"
+                },
+                {
+                    "date": 1688663028271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <header>Password Generator</header>\n     <main>\n       <div class=\"password-field\">\n         <label for=\"\"></label>\n-        <input type=\"text\" placeholder=\" P4$5W0rD!\" name=\"password-text\" class=\"password-text\">\n+        <input type=\"text\" placeholder=\" P4$5W0rD!\" id=\"password-text\" =\"password-text\" class=\"password-text\">\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form class=\"form-control\">\n         <!-- Character Field -->\n"
+                },
+                {
+                    "date": 1688663035027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <header>Password Generator</header>\n     <main>\n       <div class=\"password-field\">\n         <label for=\"\"></label>\n-        <input type=\"text\" placeholder=\" P4$5W0rD!\" id=\"password-text\" =\"password-text\" class=\"password-text\">\n+        <input type=\"text\" placeholder=\" P4$5W0rD!\" id=\"password-text\" class=\"password-text\">\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form class=\"form-control\">\n         <!-- Character Field -->\n"
+                },
+                {
+                    "date": 1688663052204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <header>Password Generator</header>\n     <main>\n       <div class=\"password-field\">\n         <label for=\"\"></label>\n-        <input type=\"text\" placeholder=\" P4$5W0rD!\" id=\"password-text\" class=\"password-text\">\n+        <input type=\"text\" placeholder=\" P4$5W0rD!\" id=\"password-text\">\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form class=\"form-control\">\n         <!-- Character Field -->\n"
+                },
+                {
+                    "date": 1688663070284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   <div class=\"container\">\n     <header>Password Generator</header>\n     <main>\n       <div class=\"password-field\">\n-        <label for=\"\"></label>\n+        <label for=\"password-text\"></label>\n         <input type=\"text\" placeholder=\" P4$5W0rD!\" id=\"password-text\">\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form class=\"form-control\">\n"
+                },
+                {
+                    "date": 1688663235661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,10 +13,9 @@\n   <div class=\"container\">\n     <header>Password Generator</header>\n     <main>\n       <div class=\"password-field\">\n-        <label for=\"password-text\"></label>\n-        <input type=\"text\" placeholder=\" P4$5W0rD!\" id=\"password-text\">\n+        <h1>P4$5W0rD!</h1>\n         <img src=\"assets/images/icon-copy.svg\" alt=\"copy-icon\">\n       </div>\n       <form class=\"form-control\">\n         <!-- Character Field -->\n"
+                },
+                {
+                    "date": 1688663891166,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,10 +57,10 @@\n           <p>Strength</p>\n           <!-- Strength State  | | | | -->\n           <div class=\"strength-state\">\n             <h2>Medium</h2>\n-            <div class=\"column1\"></div>\n-            <div class=\"column2\"></div>\n+            <div class=\"column\"></div>\n+            <div class=\"column\"></div>\n             <div class=\"column3\"></div>\n             <div class=\"column4\"></div>\n           </div>\n         </div>\n"
+                },
+                {
+                    "date": 1688663900331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,10 +59,10 @@\n           <div class=\"strength-state\">\n             <h2>Medium</h2>\n             <div class=\"column\"></div>\n             <div class=\"column\"></div>\n-            <div class=\"column3\"></div>\n-            <div class=\"column4\"></div>\n+            <div class=\"column\"></div>\n+            <div class=\"column\"></div>\n           </div>\n         </div>\n \n         <!-- Generate Button -->\n"
+                },
+                {
+                    "date": 1688664567293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,12 +57,15 @@\n           <p>Strength</p>\n           <!-- Strength State  | | | | -->\n           <div class=\"strength-state\">\n             <h2>Medium</h2>\n-            <div class=\"column\"></div>\n-            <div class=\"column\"></div>\n-            <div class=\"column\"></div>\n-            <div class=\"column\"></div>\n+            <div class=\"columns\">\n+              <div class=\"column\"></div>\n+              <div class=\"column\"></div>\n+              <div class=\"column\"></div>\n+              <div class=\"column\"></div>\n+            </div>\n+           \n           </div>\n         </div>\n \n         <!-- Generate Button -->\n"
+                },
+                {
+                    "date": 1688664634962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,11 +61,9 @@\n             <div class=\"columns\">\n               <div class=\"column\"></div>\n               <div class=\"column\"></div>\n               <div class=\"column\"></div>\n-              <div class=\"column\"></div>\n-            </div>\n-           \n+              <div class=\"column\"></div>           \n           </div>\n         </div>\n \n         <!-- Generate Button -->\n"
+                },
+                {
+                    "date": 1688664642983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,13 +57,12 @@\n           <p>Strength</p>\n           <!-- Strength State  | | | | -->\n           <div class=\"strength-state\">\n             <h2>Medium</h2>\n-            <div class=\"columns\">\n-              <div class=\"column\"></div>\n-              <div class=\"column\"></div>\n-              <div class=\"column\"></div>\n-              <div class=\"column\"></div>           \n+            <div class=\"column\"></div>\n+            <div class=\"column\"></div>\n+            <div class=\"column\"></div>\n+            <div class=\"column\"></div>           \n           </div>\n         </div>\n \n         <!-- Generate Button -->\n"
+                }
+            ],
+            "date": 1688575926629,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n  <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./assets/images/favicon-32x32.png\">\n  \n  <title>Password generator app</title>\n</head>\n<body>\n\n  <div class=\"container\">\n    <header>Password Generator</header>\n    <main>\n      <div class=\"password-field\">\n        <h1>P4$5W0rD!</h1>\n        <img src=\"\" alt=\"\">\n      </div>\n    </main>\n    \n  </div>\n \n\n\n\n  Character Length\n\n  Include Uppercase Letters\n  Include Lowercase Letters\n  Include Numbers\n  Include Symbols\n\n  Strength\n\n  Generate\n\n</body>\n</html>\n"
+        }
+    ]
+}

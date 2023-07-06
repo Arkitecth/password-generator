@@ -1,0 +1,50 @@
+{
+    "sourceFile": "starter-code/index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1688574681134,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688575551595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   <title>Password generator app</title>\n </head>\n <body>\n \n-  Password Generator\n+  <h1>Password Generator</h1>\n \n   P4$5W0rD!\n \n   Character Length\n"
+                },
+                {
+                    "date": 1688575573411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,12 @@\n   <title>Password generator app</title>\n </head>\n <body>\n \n-  <h1>Password Generator</h1>\n+  <div class=\"container\">\n+    <h1>Password Generator</h1>\n+  </div>\n+ \n \n   P4$5W0rD!\n \n   Character Length\n"
+                },
+                {
+                    "date": 1688575620399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,10 @@\n </head>\n <body>\n \n   <div class=\"container\">\n-    <h1>Password Generator</h1>\n+    <header>Password Generator</header>\n+    \n   </div>\n  \n \n   P4$5W0rD!\n"
+                },
+                {
+                    "date": 1688575671763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,11 @@\n <body>\n \n   <div class=\"container\">\n     <header>Password Generator</header>\n+    <div class=\"password-text\">\n+      \n+    </div>\n     \n   </div>\n  \n \n"
+                },
+                {
+                    "date": 1688575684994,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,11 +11,11 @@\n <body>\n \n   <div class=\"container\">\n     <header>Password Generator</header>\n-    <div class=\"password-text\">\n+    <main>\n       \n-    </div>\n+    </main>\n     \n   </div>\n  \n \n"
+                },
+                {
+                    "date": 1688575837437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,11 @@\n \n   <div class=\"container\">\n     <header>Password Generator</header>\n     <main>\n-      \n+      <div class=\"password-field\">\n+        \n+      </div>\n     </main>\n     \n   </div>\n  \n"
+                },
+                {
+                    "date": 1688575846300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,17 +13,17 @@\n   <div class=\"container\">\n     <header>Password Generator</header>\n     <main>\n       <div class=\"password-field\">\n-        \n+        <h1>  P4$5W0rD!</h1>\n       </div>\n     </main>\n     \n   </div>\n  \n \n-  P4$5W0rD!\n \n+\n   Character Length\n \n   Include Uppercase Letters\n   Include Lowercase Letters\n"
+                },
+                {
+                    "date": 1688575853343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   <div class=\"container\">\n     <header>Password Generator</header>\n     <main>\n       <div class=\"password-field\">\n-        <h1>  P4$5W0rD!</h1>\n+        <h1> P4$5W0rD!</h1>\n       </div>\n     </main>\n     \n   </div>\n"
+                }
+            ],
+            "date": 1688574681134,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n  <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./assets/images/favicon-32x32.png\">\n  \n  <title>Password generator app</title>\n</head>\n<body>\n\n  Password Generator\n\n  P4$5W0rD!\n\n  Character Length\n\n  Include Uppercase Letters\n  Include Lowercase Letters\n  Include Numbers\n  Include Symbols\n\n  Strength\n\n  Generate\n\n</body>\n</html>\n"
+        }
+    ]
+}
