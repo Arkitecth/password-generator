@@ -9,8 +9,11 @@
     --very-dark-grey:#18171f; 
     --dark-grey: #24232c; 
     --grey:#817D92; 
-    --almost-white:#e6e5ea; 
+    --red:#F64A4A; 
+    --orange: #FB7C58; 
+    --yellow:#F8CD65; 
     --neon-green:#a4ffaf; 
+    --almost-white:#e6e5ea; 
 }
 
 
@@ -48,6 +51,36 @@ header {
     margin-bottom: 1rem;
 }
 
+
+.password-field h1 {
+  opacity: 0.2;
+  width: 70%; 
+  text-align: left;
+  overflow: hidden;
+
+}
+
+.password-field img {
+  position: relative;
+  cursor: pointer;
+}
+
+.password-field p {
+  position: absolute;
+  color: var(--neon-green);
+  right: 10rem;
+  text-transform: uppercase;
+  display: none;
+}
+
+/* Toggle Password Opacity */
+.toggleOpacity {
+  opacity: 1 !important;
+}
+
+.password-field img:hover {
+  filter: invert(0.5) brightness(2);
+}
 
 
 /* Form Control */
@@ -108,6 +141,33 @@ header {
     border-radius: 50%;
     border: none;
   }
+
+/* Hover, active & focus Thumb: Webkit */
+
+input[type="range"]::-webkit-slider-thumb:hover {
+background-color:var(--very-dark-grey); 
+border: 1px solid var(--neon-green);
+}
+input[type="range"]:active::-webkit-slider-thumb {
+background-color: var(--very-dark-grey); 
+border: 1px solid var(--neon-green);
+}
+
+/* Hover, active & focus Thumb: Firfox */
+
+
+input[type="range"]::-moz-range-thumb:hover {
+  background-color: var(--very-dark-grey); 
+  border: 1px solid var(--neon-green);
+}
+input[type="range"]:active::-moz-range-thumb {
+  background-color: var(--very-dark-grey); 
+  border: 1px solid var(--neon-green);
+}
+input[type="range"]:focus::-moz-range-thumb {
+  background-color: var(--very-dark-grey); 
+  border: 1px solid var(--neon-green);
+} 
 
 
   /* Checkbox Main Styling */
@@ -197,12 +257,31 @@ header {
   background-color: var(--very-dark-grey);
 }
 
+/* Dynamic Styles for Strength State */
+.to-weak {
+  background-color: var(--red);
+}
+
+.weak {
+  background-color: var(--orange);
+}
+
+.medium {
+  background-color: yellow;
+}
+
+.strong {
+  background-color: green;
+}
+
+
 
 /* Generate Button */
 
 button[type="submit"] {
   padding: 20px;
   margin: 20px auto;
+  font-family: 'JetBrains Mono', monospace;
   background-color: var(--neon-green);
   color:var(--dark-grey); 
   border: none;
@@ -224,6 +303,7 @@ button[type="submit"]:hover{
 button[type="submit"]:hover img {
   filter: opacity(0.5) drop-shadow(0 0 var(--neon-green)) brightness(2);
 }
+
 
 
 /* Media Query */
