@@ -25,10 +25,10 @@ Users should be able to:
 
 ### Screenshot
 <img width="890" alt="Screen Shot 2023-07-07 at 3 51 59 PM" src="https://github.com/Arkitecth/password-generator/assets/65973967/9cd8d09b-0b6b-49b0-964e-b799af5c6431">
-### Links
-- Live Site URL: [Add live site URL here](https://arkitecth.github.io/password-generator/)
 
-## My process
+
+### Links
+- Live Site URL:(https://arkitecth.github.io/password-generator/)
 
 ### Built with
 
