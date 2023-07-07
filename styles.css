@@ -49,6 +49,7 @@ header {
     margin: 0 auto;
     padding: 0.5rem 1.5rem;
     margin-bottom: 1rem;
+    position: relative;
 }
 
 
@@ -61,14 +62,13 @@ header {
 }
 
 .password-field img {
-  position: relative;
   cursor: pointer;
 }
 
 .password-field p {
   position: absolute;
   color: var(--neon-green);
-  right: 10rem;
+  right: 10%;
   text-transform: uppercase;
   display: none;
 }
@@ -320,6 +320,12 @@ button[type="submit"]:hover img {
   .password-strength {
     padding: 10px 0;
     justify-content: space-between;
+  }
+
+  .copied-text {
+    position: absolute;
+    bottom: 200px;
+    left: 50px;
   }
 
 }
